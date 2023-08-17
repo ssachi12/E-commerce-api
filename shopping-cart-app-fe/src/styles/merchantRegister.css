@@ -1,0 +1,78 @@
+/* RegistrationForm.css */
+.background{
+  height: 87.2vh;
+  width: 100%;
+  padding: 40px;
+  background-image: url(https://img.freepik.com/premium-photo/corporate-company-background-with-minimal-architecture-ultra-realistic-generative-ai_807028-15.jpg?size=626&ext=jpg&uid=R112382769&ga=GA1.2.388743396.1691601861&semt=ais);
+  background-size: cover;
+  background-position: center; 
+  animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.registration-form {
+  
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    transform: translateY(150px);
+  }
+  
+  
+  .registration-form label {
+    font-weight: bold;
+    color: #f9f5f5;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"],
+  .registration-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid white;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+  }
+  .registration-form input[type="text"]::placeholder{
+    color: white;
+ }
+  .registration-form input[type="email"]::placeholder{
+    color: white;
+ }
+  .registration-form input[type="password"]::placeholder{
+    color: white;
+ }
+  .registration-form input[type="tel"]::placeholder{
+     color: white;
+  }
+  .registration-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }
+  

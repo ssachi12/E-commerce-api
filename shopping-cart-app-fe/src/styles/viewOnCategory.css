@@ -1,0 +1,27 @@
+.product-container {
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); /* Create a grid with flexible columns */
+    gap: 2px 5px; /* Add small vertical (2px) and horizontal (5px) gap between product items */
+  }
+.image{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+strike{
+    font-size: 15px;
+    text-decoration: line-through red;
+}
+label{
+    width: 120px;
+    font-size: 13px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+h6{
+    color: rgb(46, 43, 43);
+    margin-top: 5px;
+}
